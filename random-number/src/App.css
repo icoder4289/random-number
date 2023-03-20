@@ -1,6 +1,10 @@
+*{
+  background-color: #282C34;
+}
+
 .App {
   text-align: center;
-  border: 3px solid #252525;
+  border: 3px solid #fff;
   width: 300px;
   height: 130px;
   margin: 20px 0 0 50px;
@@ -12,8 +16,8 @@
 }
 
 button{
-  background-color: #252525;
-  color: aliceblue;
+  background-color: #fff;
+  color: #282C34;
   margin-top: 10px;
   padding: 10px 12px;
   border-radius: 50px;
@@ -24,9 +28,9 @@ button{
 }
 
 p{
-  background-color: #252525;
+  background-color: #fff;
   padding: 10px 12px;
   width: 0 auto;
-  color: aliceblue;
+  color: #282C34;
 
 }

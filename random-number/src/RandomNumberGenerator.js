@@ -8,10 +8,17 @@ export default function RandomNumberGenerator() {
     setRandomNumber(newRandomNumber);
   };
 
+  let message = null;
+  if (randomNumber) {
+    message = <p>Random number: {randomNumber}</p>;
+  } else {
+    message = <p>Enter Button On Top</p>;
+  }
+
   return (
     <div>
       <button onClick={generateNumber}>Generate Number</button>
-      {randomNumber && <p>Random number: {randomNumber}</p>}
+      {message}
     </div>
   );
 }
